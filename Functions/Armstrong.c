@@ -27,6 +27,7 @@ int isArmstrong(int n){
     }else{
         return 0;
     }
+    
 }
 int main(){
     int n;
