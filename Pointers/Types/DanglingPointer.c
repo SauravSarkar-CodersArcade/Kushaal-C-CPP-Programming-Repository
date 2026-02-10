@@ -1,7 +1,8 @@
 #include<stdio.h>
 // Scope-2
+// Function Pointer
 int * function(){
-    static x = 10; // 0x2000 // Globally accessible in the file
+    static int x = 10; // 0x2000 // Globally accessible in the file
     return &x; // 0x2000
 }
 

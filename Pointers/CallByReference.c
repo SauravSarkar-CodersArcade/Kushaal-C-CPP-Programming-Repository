@@ -3,7 +3,7 @@ void swap(int * a, int * b){
     printf("Before(Inside Swap): a=%d, b=%d\n", *a,*b);
     int temp = *a;
     *a = *b;
-    *b = temp;
+    *b = temp; 
     printf("After(Inside Swap): a=%d, b=%d\n", *a,*b);
 }
 // Call by reference does update the address, so changes are seen
